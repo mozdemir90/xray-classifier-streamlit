@@ -1,6 +1,6 @@
 # 🩻 X-ray Görüntü Sınıflandırıcı
 
-Bu proje, göğüs röntgeni (X-ray) görüntülerini analiz ederek hastalık durumlarını sınıflandırmak için eğitilmiş bir makine öğrenmesi modeli ve Streamlit tabanlı bir web arayüzü sunar.
+Bu proje, diz röntgeni (X-ray) görüntülerini analiz ederek kireçlenme durumlarını sınıflandırmak için eğitilmiş bir makine öğrenmesi modeli ve Streamlit tabanlı bir web arayüzü sunar.
 
 ## 🚀 Demo
 
@@ -41,3 +41,10 @@ pip install -r requirements.txt
 
 # 3. Uygulamayı başlatın
 streamlit run app.py
+
+Notlar:
+ * Model eğitim süreci bu repoya dahil değildir. Eğitim kodları başka bir klasörde tutulmuştur.
+ * Bu proje yalnızca demo amaçlıdır ve tıbbi teşhis için kullanılmamalıdır.
+
+Lisans:
+* Bu proje açık kaynak olup MIT Lisansı ile lisanslanmıştır.
