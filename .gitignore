@@ -1,5 +1,31 @@
-venv/
+# Python cache dosyaları
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+
+# Ortam dosyaları
+.env
+*.env
+
+# Sanal ortam klasörleri
+venv/
+env/
+.venv/
+
+# Jupyter notebook kontrol dosyası
+.ipynb_checkpoints/
+
+# VSCode ayarları
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# MacOS özel
+.DS_Store
+
+# pip tarafından oluşturulmuş dosyalar
+pip-log.txt
+
+# Model dosyaları
+*.pkl
+*.joblib
