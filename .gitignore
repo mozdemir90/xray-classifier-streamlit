@@ -27,8 +27,8 @@ env/
 pip-log.txt
 
 # Model dosyaları
-*.pkl
-*.joblib
+##*.pkl
+##*.joblib
 
 log.csv
 
